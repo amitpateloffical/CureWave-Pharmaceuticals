@@ -42,9 +42,9 @@ const Manufacturing = () => {
                             {/* <div className="home-head rounded-pill  px-3 mb-3">
                 Business Area
               </div> */}
-                            <h1 className="Manu-about">At Mediva Pharma we are passionate about every product we deliver to our customers</h1>
+                            <h1 className="Manu-about"> Our Commitment to Manufacturing Excellence</h1>
                             <p className="Manu-para">"Our commitment to manufacturing excellence ensures that patients and healthcare
-                                professionals can trust in the safety and efficacy of every product bearing the Mediva Pharma name.
+                                professionals can trust in the safety and efficacy of every product bearing the CureWave Pharma name.
                                 We are proud to be at the forefront of the pharmaceutical manufacturing industry,
                                 delivering high-quality medicines that make a difference in people's lives."</p>
 

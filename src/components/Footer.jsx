@@ -19,11 +19,11 @@ function Footer() {
             <div className="col-md-6 col-lg-3 wow fadeIn " data-wow-delay="0.1s">
               <a href="index.html" className="d-inline-block mb-3">
                 <h1 className="text-white">
-                Mediva <span className="text-primary"></span>Pharmaceuticals
+                CureWave <span className="text-primary"></span>Pharmaceuticals
                 </h1>
               </a>
               <p className="mb-0 style={{ fontSize: '14px' }}>">
-              "Mediva Pharmaceuticals offers cutting-edge treatments, backed by rigorous research and quality assurance, ensuring optimal patient care and outcomes."
+              "CureWave Pharmaceuticals offers cutting-edge treatments, backed by rigorous research and quality assurance, ensuring optimal patient care and outcomes."
               </p>
               <div className="d-flex pt-4">
                 <a className="btn btn-outline-light btn-social" href="">
@@ -72,7 +72,7 @@ function Footer() {
           <div className="copyright">
             <div className="row">
               <div className="col-md-6 text-center text-md-start mb-2 mb-md-0">
-                &copy; Mediva Pharmaceuticals, All Right Reserved.
+                &copy; CureWave Pharmaceuticals, All Right Reserved.
               </div>
               <div className="col-md-6 text-center text-md-end">
                 <div className="footer-menu">

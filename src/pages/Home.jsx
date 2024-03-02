@@ -22,7 +22,7 @@ function Home() {
           <div className=" g-5 align-items-center slider-img">
             <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
               <div className="">
-                <img className="img-fluid" src="https://media.istockphoto.com/id/1309776504/photo/female-research-scientist-with-bioengineer-working-on-a-personal-computer-with-screen-showing.jpg?s=612x612&w=0&k=20&c=FBI79EWdoWHailbTGvQWBBYOiOfx7owZLWuNnQxuDqo=" />
+                <img className="img-fluid" src="https://img.freepik.com/free-photo/scientist-protective-gear-examines-test-tubes-engages-with-microscope-laboratory_157027-2452.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
             <div
@@ -55,7 +55,7 @@ function Home() {
                 Manufacturing
               </div>
               <h1 className="heading-about">Providing Quality Products</h1>
-              <p className="home-para">"At Mediva Pharmaceuticals , we believe that quality is the cornerstone of every
+              <p className="home-para">"At CureWave Pharmaceuticals , we believe that quality is the cornerstone of every
                 product we deliver. Our state-of-the-art manufacturing facilities are equipped
                 with cutting-edge technology and adhere to the highest international
                 standards to ensure the safety, purity,
@@ -64,7 +64,7 @@ function Home() {
             </div>
             <div className="wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
 
-              <img className="img-fluid" src="https://media.istockphoto.com/id/1212392754/photo/scientist-works-with-petri-dishes-with-various-bacteria-tissue-and-blood-samples-concept-of.jpg?s=612x612&w=0&k=20&c=CLcKr82Sq-gA0vPIywY5XylI7bTYT1h86Z4Oc5hqwUE=" />
+              <img className="img-fluid" src="https://img.freepik.com/free-photo/medicine-capsules-global-health-with-geometric-pattern-digital-remix_53876-126742.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
 
             </div>
           </div>
@@ -113,7 +113,7 @@ function Home() {
                 About Us
               </div>
               <h1 className="heading-about">Clear Strategy, Consistent Performance</h1>
-              <p className="home-para"> "Welcome to Mediva Pharmaceuticals, where our mission is to revolutionize healthcare through innovative,
+              <p className="home-para"> "Welcome to CureWave Pharmaceuticals, where our mission is to revolutionize healthcare through innovative,
                 life-changing medicines. As a global leader in pharmaceuticals,
                 we specialize in developing cutting-edge treatments for a wide range of medical conditions.
                 Our commitment to excellence drives us to consistently deliver safe, effective,
@@ -125,7 +125,7 @@ function Home() {
             </div>
             <div className="wow fadeIn abouts" data-wow-delay="0.1s" data-aos="fade-right">
 
-              <img className="img-fluid" height={"344px"} width={"612px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXVdBgChoX8FO4cd2EFWKcB8FCPKMVjYSr4g&usqp=CAU" />
+              <img className="img-fluid" height={"344px"} width={"612px"} src="https://img.freepik.com/free-photo/technologist-protective-uniform-wearing-hairnet-mask-goggles-gloves-closing-industrial-tank-reservoir_342744-1167.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
 
             </div>
           </div>

@@ -13,10 +13,10 @@ function Header() {
         <div className="px-5">
           <nav className="navbar navbar-expand-lg navbar-dark p-0 py-5">
             <Link to="/" className="navbar-brand a-index">
-              <img className="" style={{ height: "190px", width: "150px", paddingTop: "40px"}} src="logomediva.png" alt="Life Link Digital" />
+              <img className="" style={{ height: "190px", width: "150px", paddingTop: "40px"}} src="cureWave-removebg-preview.png" alt="Life Link Digital" />
             </Link>
             <Link to="/" >
-              <div style={{ color: "#004526" }} className="logo123">Mediva Pharmaceuticals</div>
+              <div style={{ color: "#004526" }} className="logo123">CureWave Pharmaceuticals</div>
             </Link>
             <button
               type="button"

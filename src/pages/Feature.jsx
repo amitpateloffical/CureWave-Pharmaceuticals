@@ -59,7 +59,7 @@ export default function GxpTrainig() {
               </div>
             </div>
             <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
-              <h4 className="mb-4 " data-aos="fade-left">At Mediva, science is embedded in our ethos, as we wholeheartedly embrace Research and Development (R&D) as an essential component of our sustainable business strategy. Over the decades, we have invested strongly and strategically in cutting-edge technological advancements and innovative research activities.</h4>
+              <h4 className="mb-4 " data-aos="fade-left">At CureWave, science is embedded in our ethos, as we wholeheartedly embrace Research and Development (R&D) as an essential component of our sustainable business strategy. Over the decades, we have invested strongly and strategically in cutting-edge technological advancements and innovative research activities.</h4>
               {/* <div className="content_container"> */}
                 {/* <ul className="list-group"
                   ref={(ref) => listRefs.current.push(ref)}
