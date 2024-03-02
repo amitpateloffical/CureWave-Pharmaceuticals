@@ -33,7 +33,7 @@ const Manufacturing = () => {
                     <div className=" g-5 align-items-center slider-img">
                         <div className=" " >
                             <div className="">
-                                <img width="1200px" style={{ borderRadius: "15px 50px", boxShadow: "-5px -5px 9px rgba(184, 184, 184, 0.45) 5px 5px 9px rgba(78, 88, 104, 0.3)" }} className="img-fluid" src="https://media.istockphoto.com/id/1309776504/photo/female-research-scientist-with-bioengineer-working-on-a-personal-computer-with-screen-showing.jpg?s=612x612&w=0&k=20&c=FBI79EWdoWHailbTGvQWBBYOiOfx7owZLWuNnQxuDqo=" />
+                                <img width="1200px" style={{ borderRadius: "15px 50px", boxShadow: "-5px -5px 9px rgba(184, 184, 184, 0.45) 5px 5px 9px rgba(78, 88, 104, 0.3)" }} className="img-fluid" src="https://img.freepik.com/free-photo/pharmaceutical-industry-man-worker-protective-clothing-operating-production-tablets-sterile-working-conditions_645730-532.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
                             </div>
                         </div>
                         <div

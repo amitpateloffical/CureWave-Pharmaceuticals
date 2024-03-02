@@ -62,11 +62,7 @@ function About() {
               </h3>
               <div className="paragraph_container ">
                 <p className="paragraph fs-5 pt-2">
-                CureWave Pharmaceuticals stands as a beacon of innovation and excellence in the 
-                realm of healthcare. With a steadfast commitment to advancing medical science 
-                and improving patient outcomes, CureWave spearheads groundbreaking research and development 
-                initiatives. By harnessing cutting-edge technologies and leveraging top-tier expertise, the company 
-                pioneers novel treatments for a myriad of diseases and medical conditions.
+                CureWave Pharmaceuticals is a pioneer of innovation and excellence in the healthcare industry. Our relentless commitment to advancing medical science and improving patient outcomes is the cornerstone of our operations. By spearheading groundbreaking research and development initiatives, we are at the forefront of developing novel treatments for a wide range of diseases and medical conditions. Through the application of cutting-edge technologies and the utilization of top-tier expertise, we remain dedicated to pushing the boundaries of what is possible in healthcare.
                 </p>
               </div>
               <p className="mb-4"></p>
@@ -84,7 +80,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2012/04/10/17/40/vitamins-26622_1280.png" />
+                <img className="img-fluid" src="https://img.freepik.com/premium-photo/medicine-bottle-colorful-pills_785361-341.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
             <div
@@ -170,7 +166,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2018/04/13/18/22/houston-3317202_1280.jpg" />
+                <img className="img-fluid" src="https://img.freepik.com/free-photo/pills-white-surface_144627-3165.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
           </div>
@@ -187,7 +183,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="aboutsimg">
-                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2018/07/02/19/02/dietary-supplements-3512184_960_720.jpg" />
+                <img className="img-fluid" src="https://img.freepik.com/free-photo/aged-man-chemist-store-asking-pharmacist-medical-opinion-needing-treatment-cardiac-arrest-prevention-druggist-helping-old-shopper-choose-best-pharmaceutical-drug-heart-problems_482257-70201.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
 
@@ -197,7 +193,7 @@ function About() {
               </h4>
               <div className="paragraph_container" data-aos="fade-left">
                 <p className="paragraph">
-                At CureWave Pharmaceuticals, our commitment to quality is paramount. We adhere to stringent quality policies to ensure the safety and efficacy of our products. Through rigorous testing, continuous improvement, and adherence to regulatory standards, we strive to deliver excellence in every aspect of our operations.
+                At CureWave Pharmaceuticals, we prioritize quality as the cornerstone of our operations. We have established robust quality policies to ensure the safety, efficacy, and reliability of our products. By adhering to stringent regulatory standards, implementing rigorous testing processes, and embracing continuous improvement, we strive to consistently deliver excellence. Our commitment to quality is unwavering, and we remain dedicated to maintaining the highest standards in everything we do.
                 </p>
               </div>
               {" "}
@@ -297,7 +293,7 @@ function About() {
               data-wow-delay="0.1s"
             >
               <div className="abouts">
-                <img className="img-fluid" src="https://cdn.pixabay.com/photo/2016/11/23/15/14/jars-1853439_1280.jpg" />
+                <img className="img-fluid" src="https://img.freepik.com/premium-photo/medicine-pill-capsules-fallling-with-blue-background-healthcare-medical-3d-illustration-background_518421-301.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
 
@@ -307,7 +303,7 @@ function About() {
               </h4>
               <div className="paragraph_container" data-aos="fade-left">
                 <p className="paragraph">
-                "At CureWave Pharmaceuticals, our mission is to pioneer innovative healthcare solutions that enhance patient well-being and advance medical science. With a commitment to excellence in healthcare services and products, we strive to deliver cutting-edge research, adhere to the highest standards of quality assurance.
+                At CureWave Pharmaceuticals, we are dedicated to pioneering innovative healthcare solutions that enhance patient well-being and advance medical science. Our commitment to excellence in healthcare services and products is unwavering. We strive to deliver cutting-edge research and adhere to the highest standards of quality assurance in all our endeavors. Through this commitment, we aim to make a meaningful impact on the health and well-being of individuals worldwide
                 </p>
               </div>
               <h3 className="mb-4" data-aos="fade-left">

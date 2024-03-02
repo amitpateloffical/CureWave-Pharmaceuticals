@@ -43,10 +43,10 @@ const MySlider = () => {
     <Slider {...settings} >
       {/* First Slide */}
 
-      <img height={"500px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh1dHMw7Wd5PjokrHCKoQro2fJdDHJ0W0jTw&usqp=CAU" />
+      <img height={"500px"} src="https://img.freepik.com/free-photo/medicines-medical-supplies-placed-blue_1150-19155.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
       <img  height={"500px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHjnif536FQuok-vbwj-9_NCJq9hJUoqrbJQ&usqp=CAU"/>
       <img height={"500px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ylZ3PL5R_iQBEcZ5Sio89vHuBJRCpyTdIw&usqp=CAU" />
-     <img height={"500px"} src="https://img.freepik.com/free-vector/healthcare-background-with-medical-symbols-hexagonal-frame_1017-26363.jpg?size=626&ext=jpg&ga=GA1.2.1884802103.1674757283&semt=sph" />
+     <img height={"500px"} src="https://img.freepik.com/premium-photo/pharmacy-healthcare-concept-capsule-pills-medicine-isolated-blue-with-copy-space_149453-175.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
       {/* <div className="container-fluid pt-5  hero-header mb-5">
         <div className="container pt-5">
           <div className="row g-5 pt-5">

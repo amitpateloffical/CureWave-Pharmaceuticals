@@ -33,10 +33,8 @@ function Home() {
               <div className="home-head rounded-pill  px-3 mb-3">
                 Business Area
               </div>
-              <h1 className="heading-about">Clear Strategy, Consistent Performance</h1>
-              <p className="home-para">"Driven by our passion for advancing medical science and improving patient
-                outcomes, we continuously invest in research and development to
-                bring new and groundbreaking treatments to market"</p>
+              <h1 className="heading-about">Transforming Healthcare Through Innovation</h1>
+              <p className="home-para">"At the heart of our pharmaceutical company is a dedication to innovation. Through state-of-the-art research and development, we're bringing cutting-edge therapies to market, transforming how we address healthcare challenges. Our commitment to excellence and patient well-being is evident in everything we do, from drug discovery to production. Discover how our innovative solutions are making a difference in the lives of patients and healthcare providers around the globe"</p>
             </div>
           </div>
         </div>

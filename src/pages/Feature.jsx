@@ -55,7 +55,7 @@ export default function GxpTrainig() {
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
               <div className="abouts" data-aos="fade-right" >
-                <img className="img-fluid" src="/ebmr2.jpg" />
+                <img className="img-fluid" src="https://img.freepik.com/premium-photo/researcher-with-glass-laboratory-chemical-test-tubes-with-liquid-analytical-medical-pharmaceutical-scientific-research-concept_43284-1998.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
             <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
@@ -97,11 +97,11 @@ export default function GxpTrainig() {
         <div className="container" style={{background:"#AFEEEE",paddingLeft:"20px", paddingTop:"30px", paddingBottom:"30px", borderLeft:"4px solid green"}}>
           <div className="row align-items-center g-5">
             <div className="col-lg-9  wow fadeIn" data-wow-delay="0.5s" style={{fontSize: "19px", fontWeight: "500"}}>
-            Our team thrives in an environment conducive to excellence and innovation, which is critical to advancing complex and challenging first-time combination products. The R&D team actively engages in projects from concept to Phase IV studies, as well as monitoring market acceptance and post-launch status for comprehensive insights.
+            we're dedicated to trailblazing innovations in healthcare. Our Research & Development team is committed to pushing the boundaries of possibility to develop revolutionary treatments and therapies. Through constant exploration and collaboration with top experts, we're transforming the way diseases are managed and treated. With an unwavering focus on patient well-being and a deep understanding of medical needs, we're shaping the future of healthcare. Join us as we embark on this extraordinary journey towards a healthier world.
             </div>
             <div className="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
             <div className="h-75 w-75 " data-aos="fade-right" >
-                <img className="img-fluid  rounded" src="/ebmr2.jpg" />
+                <img className="img-fluid  rounded" src="https://img.freepik.com/premium-photo/researcher-with-glass-laboratory-chemical-test-tubes-with-liquid-analytical-medical-pharmaceutical-scientific-research-concept_43284-1998.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
           </div>
