@@ -1,0 +1,36 @@
+.BusinessAreas{
+    position: relative;
+}
+.innerpageTitle h1 {
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    bottom: 6rem;
+}
+.innerpageTitle h1:before {
+    width: 100px;
+    height: 3px;
+    background: #ffb44f;
+    position: absolute;
+    bottom: 0;
+    content: "";
+}
+.innerBanner img{
+    border-bottom: 3px solid #252c69;
+}
+.BusinessArea .businesspage .heading-business{
+    font-size: 22px;
+    color: gray;
+
+}
+.BusinessArea .businesspage .paratwo{
+    font-size: 16px;
+    color: gray;
+    background-color: #f4f6fc;
+    border-left: 2px solid #252c69;
+}
+.BusinessArea .businesspage .overview-part2{
+    font-size: 18px;
+}
