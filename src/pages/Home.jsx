@@ -70,7 +70,7 @@ const navigate=useNavigate()
                      <div onClick={()=>navigate("/businessareas")} className="read-more-btn">Read More...</div>
 
                 </div>
-                <div data-aos="fade-right" className="py-3 container">
+                <div data-aos="fade-left" className="py-3 container">
                   <h3  className="home-h3">Manufacturing</h3>
                   <h5> From Science to Solution: Ensuring Quality Manufacturing</h5>
                   <p> Our state-of-the-art manufacturing facilities translate groundbreaking research into life-saving medications.
@@ -94,7 +94,7 @@ const navigate=useNavigate()
 
                      <div onClick={()=>navigate("/features")} className="read-more-btn">Read More...</div>
                 </div>
-                <div data-aos="fade-right" className="py-3 container">
+                <div data-aos="fade-left" className="py-3 container">
                   <h3 className="home-h3">About Us</h3>
                   <h5>Bridging the Gap Between Discovery and Delivery</h5>
                   <p> CureWave is a passionate force in the pharmaceutical landscape.

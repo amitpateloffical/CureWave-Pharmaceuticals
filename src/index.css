@@ -685,3 +685,23 @@ margin-top: 70px;
   color: #ffffff;
   margin-top: 30px;
 }
+
+.researchimg{
+  border-radius: 50%;
+   height: 350px; 
+  width: 350px; 
+  box-shadow: -5px -5px 9px rgba(184, 184, 184, 0.45), 5px 5px 9px rgba(78, 88, 104, 0.3);
+}
+
+.contact-bg{
+  background-color: rgb(14, 150, 241);
+  border-radius: 15px;
+}
+
+.contactbt{
+  color: white;
+}
+
+.bgcontactimg{
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/417/426/small/medical-infographic-banner-background-clinic-pharmacy-laboratory-test-and-research-healthcare-concept-backdrop-illustration-vector.jpg");
+}

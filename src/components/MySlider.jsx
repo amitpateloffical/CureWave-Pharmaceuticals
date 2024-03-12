@@ -43,9 +43,9 @@ const MySlider = () => {
     <Slider {...settings} >
       {/* First Slide */}
 
-      <img height={"500px"} src="https://img.freepik.com/free-photo/medicines-medical-supplies-placed-blue_1150-19155.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
-      <img  height={"500px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHjnif536FQuok-vbwj-9_NCJq9hJUoqrbJQ&usqp=CAU"/>
-      <img height={"500px"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8ylZ3PL5R_iQBEcZ5Sio89vHuBJRCpyTdIw&usqp=CAU" />
+      <img height={"500px"} src="https://florenciahealthcare.com/wp-content/uploads/2023/10/Slider-01.jpg" />
+      <img  height={"500px"} src="https://akm-img-a-in.tosshub.com/businesstoday/images/story/202210/64e01bf1f7dbd9099e249e9c3247fdbb9a46b4b1-1280x720-sixteen_nine.jpg?size=948:533"/>
+      <img height={"500px"} src="https://tridentinfo.com/wp-content/uploads/2024/02/Future-Proofing-Your-Pharma-Business-Microsoft-Dynamics-ERP-for-the-Pharmacy-Industry-1024x445.webp" />
      <img height={"500px"} src="https://img.freepik.com/premium-photo/pharmacy-healthcare-concept-capsule-pills-medicine-isolated-blue-with-copy-space_149453-175.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
       {/* <div className="container-fluid pt-5  hero-header mb-5">
         <div className="container pt-5">

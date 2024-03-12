@@ -57,3 +57,63 @@
 .a-index{
   z-index: 1000;
 }
+.nav_ul li {
+  padding: 0 0.6rem;
+}
+
+.nav_ul a {
+  font-size: 1.05rem;
+  color: #000 !important;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.btn1 {
+  border: 0;
+  padding: 0.5rem 1.8rem;
+  color: #fff;
+  background-color: #01193c;
+}
+
+#flexbox-logo {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  background-color: white;
+}
+
+.logoimg img {
+  height: 100px;
+  padding: 15px;
+}
+
+
+
+#responsive-headerdrop {
+  position: absolute;
+  right: 0;
+  margin-top: 80px;
+  z-index: 1000;
+  background-color: rgb(215, 237, 251);
+  border-radius: 10px;
+  width: 250px;
+  color: #000;
+}
+
+#responsive-headerdrop .responsive-item:hover {
+  background-color: #20314a;
+  border-radius: 5px;
+  color: white;
+  padding: 5 px;
+}
+
+.header-item-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.header-head{
+  color:rgb(14, 150, 241);
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 15px;
+}

@@ -1,98 +1,161 @@
+
+
 import "./Header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link, NavLink, useNavigate, } from "react-router-dom";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function Header() {
-  const navigate = useNavigate();
+  const [isButtonClicked, setIsButtonClicked] = useState(false);
 
+  const handleButtonClick = () => {
+    // console.log("setIsButtonClicked clicked")
+    if (isButtonClicked) {
+      setIsButtonClicked(false);
+    } else {
+      setIsButtonClicked(true);
+    }
+  };
 
   return (
     <>
-      {/* <!-- Navbar Start --> */}
-      <div className="container-fluid">
-        <div className="px-5">
-          <nav className="navbar navbar-expand-lg navbar-dark p-0 py-5">
-            <Link to="/" className="navbar-brand a-index">
-              <img className="" style={{ height: "190px", width: "150px", paddingTop: "40px"}} src="cureWave-removebg-preview.png" alt="Life Link Digital" />
-            </Link>
-            <Link to="/" >
-              <div style={{ color: "#004526" }} className="logo123">CureWave Pharmaceuticals</div>
-            </Link>
-            <button
-              type="button"
-              className="navbar-toggler ms-auto me-0"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarCollapse"
-            ></button>
-            <div className="justify-end collapse navbar-collapse" id="navbarCollapse">
-              <div className="navbar-nav ms-auto">
-                <NavLink to="/" className="nav-item nav-link">
-                  Home
-                </NavLink>
-                {/* <NavLink to="/businessareas" className="nav-item nav-link">
-                  Business Area
-                </NavLink> */}
-
-
-                <NavLink
-                  to="/businessareas"
-                  className="nav-item nav-link"
-                  onClick={(e) => {
-                    e.preventDefault(); // Prevents the default navigation behavior
-                    e.stopPropagation(); // Stops event propagation to prevent interference with NavLink
-                    // navigate("/services"); // Manually navigate to the desired route
-                  }}
-                >
-                  <div className="dropdown">
-                    <div>
-                      Business Area &nbsp;
-                      <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                          fill="currentColor"
-                          d="M12 16a1 1 0 0 1-.64-.23l-6-5a1 1 0 1 1 1.28-1.54L12 13.71l5.36-4.32a1 1 0 0 1 1.41.15a1 1 0 0 1-.14 1.46l-6 4.83A1 1 0 0 1 12 16"
-                        />
-                      </svg>
-                    </div>
-                    <div className="dropdown-content">
-                      <ul>
-                         <li onClick={() => navigate("/businessareas")}>Overview</li>
-                        <li onClick={() => navigate("/indiabranded")}>INDIA - BRANDED GENERICS</li>
-                        <li onClick={() => navigate("/emergingmarkets")}>EMERGING MARKETS - BRANDED GENERICS</li>
-                        <li onClick={() => navigate("/usgenerics")}>USA - Generics</li>
-                        <li onClick={() => navigate("/africainstitution")}>AFRICA - INSTITUSTION BUSINESS</li>
-                      </ul>
-
-                    </div>
-                  </div>
-                </NavLink>
-                <NavLink to="/manufacturing" className="nav-item nav-link">
-                  Manufacturing
-                </NavLink>
-                <NavLink to="/features" className="nav-item nav-link">
-                  R & D
-                </NavLink>
-                <NavLink to="/about" className="nav-item nav-link">
-                  About Us
-                </NavLink>
-                <NavLink to="/contact" className="nav-item nav-link">
-                  Contact us
-                </NavLink>
-
-              </div>
-              <button
-                type="button"
-                className="btn text-white p-0 d-none d-lg-block"
-                data-bs-toggle="modal"
-                data-bs-target="#searchModal"
-              >
-                <i className="fa fa-search"></i>
-              </button>
+      <div id="responsive-headerdrop">
+        {isButtonClicked && (
+          <div className="nav-item dropdown">
+            <div className="row m-1">
+              <Link className="m-2 responsive-item" to="/">
+                Home
+              </Link>
+              <Link className="m-2 responsive-item" to="/businessareas">
+                Business Area
+              </Link>
+              <Link className="m-2 responsive-item" to="/manufacturing">
+                Manufacturing
+              </Link>
+              <Link className="m-2 responsive-item" to="/features">
+                Research &amp; Development
+              </Link>
+              <Link className="m-2 responsive-item" to="/about">
+                About Us
+              </Link>
+              <Link className="m-2 responsive-item" to="/contact">
+                Contact Us
+              </Link>
             </div>
-          </nav>
-        </div>
-
+          </div>
+        )}
       </div>
-      {/* <!-- Navbar End --> */}
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <div className="header-item-flex">
+          <div>
+            <Link className="navbar-brand d-flex" to="/">
+              <img
+                src="cureWave-removebg-preview.png"
+                width="70"
+                height="70"
+                className="d-inline-block align-top"
+                alt=""
+              />
+          <div className="pt-3 header-head">CureWave Pharmaceuticle</div>
+
+            </Link>
+          </div>
+          <div className="collapse navbar-collapse" id="">
+            <ul className="navbar-nav mr-auto">
+              <li className="nav-item active">
+                <Link className="nav-link" to="/">
+                  Home <span className="sr-only">(current)</span>
+                </Link>
+              </li>
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link dropdown-toggle"
+                  to="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Business Area
+                </Link>
+                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <Link className="dropdown-item" to="/businessareas">
+                    Overview
+                  </Link>
+                  <Link className="dropdown-item" to="/indiabranded">
+                    INDIA - BRANDED GENERICS
+                  </Link>
+                  <Link className="dropdown-item" to="/emergingmarkets">
+                    Emerging Markets - Branded Generics
+                  </Link>
+                  <Link className="dropdown-item" to="/usgenerics">
+                    USA - GENERICS
+                  </Link>
+                  <Link className="dropdown-item" to="/africainstitution">
+                    AFRICA-INSTITUSTION BUSINESS
+                  </Link>
+                  <Link className="dropdown-item" to="/">
+                    Something else here
+                  </Link>
+                </div>
+              </li>
+              <li className="nav-item">
+                <Link
+                  to="/manufacturing"
+                  className="nav-link"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                  Manufacturing
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/features"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                  R &amp; D
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/about"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                  About Us
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link
+                  className="nav-link"
+                  to="/contact"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                  Contact Us
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          onClick={handleButtonClick}
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+      </nav>
     </>
   );
 }

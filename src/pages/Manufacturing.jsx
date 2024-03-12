@@ -1,6 +1,43 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react'
 import "./Home.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+
 const Manufacturing = () => {
+    const listRefs = useRef([]);
+
+    // useEffect(() => {
+    //     AOS.init({ duration: 1400 });
+    //     AOS.refresh();
+    // }, []);
+
+    useEffect(() => {
+        if (listRefs.current) {
+            ""
+        }
+        const observers = [];
+
+        listRefs.current.forEach((listRef) => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        const listItems =
+                            listRef.current.querySelectorAll(".list-group-item");
+                        listItems.forEach((item) => {
+                            item.classList.add("list-item-animation");
+                        });
+                        observer.unobserve(entry.target);
+                    }
+                });
+            });
+
+            if (listRef.current) {
+                observer.observe(listRef.current);
+            }
+            observers.push(observer);
+        });
+    }, []);
     return (
         <div className=''>
             <section className="innerBanner">
@@ -11,34 +48,13 @@ const Manufacturing = () => {
                         alt="Business Areas"
                         style={{ maxWidth: '100%' }}
                     />
-
                 </picture>
-
-                {/* <div className="container">
-                    <div className="innerpageTitle">
-                        <div className="row h-100">
-                            <div className="col-md-6 align-self-center aos-init aos-animate" >
-                                <h1 data-aos="fade-right"></h1>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
             </section>
-            
-
             <div className="container-fluid p-5   mt-4">
                 <div >
                     <div className=" g-5 align-items-center slider-img">
-                        {/* <div className=" " >
-                            <div className="">
-                                <img width="1200px" style={{ borderRadius: "15px 50px", boxShadow: "-5px -5px 9px rgba(184, 184, 184, 0.45) 5px 5px 9px rgba(78, 88, 104, 0.3)" }} className="img-fluid" src="https://img.freepik.com/free-photo/pharmaceutical-industry-man-worker-protective-clothing-operating-production-tablets-sterile-working-conditions_645730-532.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
-                            </div>
-                        </div> */}
-                        <div
-
-                        >
-                            
-                            <h1 className="Manu-about"> Our Commitment to Manufacturing Excellence</h1>
+                        <div>
+                            <h1 className="Manu-about home-h3"> Our Commitment to Manufacturing Excellence</h1>
                             <p className="Manu-para">"Our commitment to manufacturing excellence ensures that patients and healthcare
                                 professionals can trust in the safety and efficacy of every product bearing the CureWave Pharma name.
                                 We are proud to be at the forefront of the pharmaceutical manufacturing industry,
@@ -49,11 +65,31 @@ const Manufacturing = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="content_container px-5 py-2">
+                <ul
+                  className="list-group"
+                  ref={(ref) => listRefs.current.push(ref)}
+                >
+                  <li className="list-group-item " data-aos="fade-left">
+                    <b className='home-h3'>Multi-layered quality control: </b>Stringent checks are conducted throughout the production process, from raw material inspection to final product testing.
+                  </li>
+                  <li className="list-group-item" data-aos="fade-left">
+                    <b className='home-h3'>Advanced monitoring systems: </b>Real-time monitoring ensures consistent production conditions and immediate detection of any potential deviations.
+                  </li>
+                  <li className="list-group-item" data-aos="fade-left">
+                    <b className='home-h3'>Continuous improvement:</b>We actively invest in research and development to adopt the latest advancements in manufacturing technology and best practices.
+                  </li>
+
+                
+                </ul>
+              </div>
+
             
             <div className=" p-5">
                 <div style={{ background: "#AFEEEE", paddingLeft: "20px", paddingTop: "30px", paddingBottom: "30px", borderLeft: "4px solid blue" }} >
                     <div className="  wow  p-2" data-wow-delay="0.5s" style={{ fontSize: "19px", fontWeight: "500" }} data-aos="">
-                        Our team thrives in an environment conducive to excellence and innovation, which is critical to advancing complex and challenging first-time combination products. The R&D team actively engages in projects from concept to Phase IV studies, as well as monitoring market acceptance and post-launch status for comprehensive insights.
+                    Our state-of-the-art manufacturing facilities are the engines that turn scientific breakthroughs into tangible solutions. We employ rigorous quality control measures at every stage, from meticulously sourced raw materials to final product packaging. Our facilities are equipped with cutting-edge technology and staffed by highly skilled personnel, ensuring consistent production of safe and effective medications for patients worldwide. This unwavering commitment to precision manufacturing allows us to deliver life-saving treatments with the highest quality standards.
                     </div>
                 </div>
             </div>

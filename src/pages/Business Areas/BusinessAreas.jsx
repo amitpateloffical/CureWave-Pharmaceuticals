@@ -10,7 +10,7 @@ function BusinessAreas() {
 
     useEffect(() => {
         AOS.init({ duration: 1400 });
-        // AOS.refresh();
+        AOS.refresh();
     }, []);
 
     useEffect(() => {
