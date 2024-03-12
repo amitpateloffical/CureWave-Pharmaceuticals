@@ -24,7 +24,7 @@ function Header() {
               data-bs-toggle="collapse"
               data-bs-target="#navbarCollapse"
             ></button>
-            <div className="collapse navbar-collapse" id="navbarCollapse">
+            <div className="justify-end collapse navbar-collapse" id="navbarCollapse">
               <div className="navbar-nav ms-auto">
                 <NavLink to="/" className="nav-item nav-link">
                   Home
@@ -65,8 +65,6 @@ function Header() {
                     </div>
                   </div>
                 </NavLink>
-
-
                 <NavLink to="/manufacturing" className="nav-item nav-link">
                   Manufacturing
                 </NavLink>

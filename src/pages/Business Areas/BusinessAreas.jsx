@@ -46,27 +46,27 @@ function BusinessAreas() {
                     <picture>
                         <img
                             className="responsive-image"
-                            src="https://ajantapharma.com/assets/frontend/images/inner_banner/business_areas.jpg"
+                            src="https://www.monopharma.in/img/slide7.jpg"
                             alt="Business Areas"
                             style={{ maxWidth: '100%' }}
                         />
 
                     </picture>
 
-                    <div className="container">
+                    {/* <div className="container">
                         <div className="innerpageTitle">
                             <div className="row h-100">
                                 <div className="col-md-6 align-self-center aos-init aos-animate" >
-                                    <h1 data-aos="fade-right">Business Areas</h1>
+                                    <h1 data-aos="fade-right"></h1>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </section>
 
                 <div className='businesspage'>
-                    <div className="row">
-                        <div className="col-md-3">
+                    <div className="p-3 ">
+                        {/* <div className="col-md-3">
                             <div className="container mt-5">
                                 <div className="card p-4 bg-light">
                                     <div className='d-flex flex-column align-items-start'>
@@ -78,19 +78,39 @@ function BusinessAreas() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-md-9">
-                            <div className="container">
-                                <div className="heading-business m-4" data-aos="fade-left">
-                                Pioneering Precision Medicine Solutions
+                            <img src=''/>
+                        </div> */}
+                        <div className="">
+                            <div className="">
+                                <div className="heading-business py-3" data-aos="fade-left">
+                                Empowering Healthcare Professionals: Partnering for Optimal Patient Care
                                 </div>
                             </div>
                             <div className="paratwo p-5 mb-4">
                                 <div className="overview-part2 p-1" data-aos="fade-left">
-                                Welcome to the forefront of precision medicine. With advanced research capabilities and a deep understanding of genomic data, we're developing highly targeted therapies tailored to individual patient needs. Our commitment to innovation and patient-centric approaches is evident in our comprehensive portfolio of personalized treatments for a wide range of conditions. Experience the power of precision medicine with us as we continue to shape the future of healthcare.
+                                At CureWave, we recognize the crucial role healthcare professionals play in delivering exceptional patient care. We go beyond simply developing medications; we strive to be a trusted partner by providing
                                 </div>
                             </div>
                         </div>
+                       
+              <div className="content_container py-2">
+                <ul
+                  className="list-group"
+                  ref={(ref) => listRefs.current.push(ref)}
+                >
+                  <li className="list-group-item" data-aos="fade-left">
+                    <b className='home-h3'>Comprehensive educational resources: </b>We offer in-depth information on our products, including their mechanism of action, clinical data, and best practices for patient management.
+                  </li>
+                  <li className="list-group-item" data-aos="fade-left">
+                    <b className='home-h3'>Collaboration and support: </b>We actively engage with healthcare professionals through workshops, conferences, and ongoing dialogue to address their needs and ensure optimal use of our medications.
+                  </li>
+                  <li className="list-group-item" data-aos="fade-left">
+                    <b className='home-h3'>Commitment to innovation:</b>:We share our research findings and development pipeline openly, fostering collaboration and keeping healthcare professionals informed about the latest advancements in treatment options.
+                  </li>
+
+                
+                </ul>
+              </div>
                     </div>
                 </div>
             </div>

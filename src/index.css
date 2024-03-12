@@ -385,8 +385,7 @@ margin-left: 50%;
 }
 
 /*** Testimonials ***/
-.testimonial-item {
-}
+
 
 /*** Footer ***/
 .footer {
@@ -583,9 +582,7 @@ margin-left: 50%;
   height: 490px;
  
 }
-.section2 {
-  /* background: linear-gradient(#80ffdb, #5390d9); */
-}
+
 #contact-form-border {
   border-bottom: 2px solid;
 }
@@ -645,22 +642,46 @@ padding-left: 80px;
 
   width: 100%;
   border-bottom: 4px solid black;
-  height: 180px;
+  height: 300px;
   overflow: hidden;
-  background-image: url('https://www.ajantapharma.com/assets/frontend/images/inner_banner/manufacturing.jpg');
+  background-image: url('https://www.aurobindo.com/img/banners/aboutbanner.png');
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
 #header-h1 {
-  color: #252c69;
-    margin-top: 65px;
-  margin-left: 150px;
-  font-size: 2.5rem;
+  color: #ffffff;
+margin-top: 70px;
+  margin-left: 100px;
+  font-size:22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* padding-bottom: 5px;  */
+  /* background-image: linear-gradient(to right, #ffb44f 50%, transparent 50%); */
+  background-size: 19% 3px; 
+  background-position: 0 100%; 
+  background-repeat: no-repeat; 
+}
+
+.aboutus-a{
+  margin-left: 100px ;
+  display: flex;
+  align-items: end;
+  gap: 20px;
+}
+
+.header-aboutus{
+  color: #ffffff;
+  margin-top: 30px;
+  margin-left: 100px;
   padding-bottom: 5px; 
   background-image: linear-gradient(to right, #ffb44f 50%, transparent 50%);
   background-size: 19% 3px; 
   background-position: 0 100%; 
   background-repeat: no-repeat; 
+}
+
+.about123{
+  color: #ffffff;
+  margin-top: 30px;
 }

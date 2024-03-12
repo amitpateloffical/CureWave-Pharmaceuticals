@@ -71,3 +71,21 @@
     font-size: 28px;
     margin-bottom: 20px;
 }
+
+.home-h3{
+    color:rgb(14, 150, 241)
+}
+
+.read-more-btn{
+    width: 110px;
+    cursor: pointer;
+    color: orange;
+}
+
+.read-more-btn:hover{
+    background-color: rgb(233, 233, 233);
+    border-radius: 25px;
+    width: 110px;
+    color: black;
+    padding: 5px 10px;
+}
