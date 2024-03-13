@@ -43,24 +43,19 @@ function Contact() {
       <BreadCrumb page="Contact Us" />
 
       {/* <!-- Contact Start --> */}
-      <div className="container-fluid section2 bgcontactimg  py-5">
+      <div className="container-fluid section2 bgcontactimg  py-4">
         <div className="container">
-          <div className="row g-5 align-items-center d-flex">
+          <div className="row g-5  pt-5 d-flex">
             <div className="col-lg-5 wow fadeIn" data-wow-delay="0.2s">
               <div className="abouts pt-5" data-aos="fade-right">
-                <h1 className="home-h3" data-aos="fade-left"> Contact Us</h1>
-                <h5>We would like to hear from you</h5>
-      <p></p>
-      <p></p>
-      <p></p>
-      <p></p>
-      <p></p>
-      <p></p>
+                <h1 className="contact-h2" data-aos="fade-left"> Contact Us</h1>
+                <h5 className="contact-p">We would like to hear from you</h5>
+      
 
               </div>
             </div>
 
-            <div className="container-fluid py-5 col-lg-7">
+            <div className="container-fluid  col-lg-7">
               <div className="container  " data-aos="fade-left">
                 <div className="mx-auto text-center wow fadeIn " data-wow-delay="0.1s" style={{ 'max-width': '500px' }}>
                 </div>

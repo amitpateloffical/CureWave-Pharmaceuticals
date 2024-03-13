@@ -81,7 +81,7 @@ margin-left: 50%;
 
 .navbar {
   height: 75px;
-  padding: 11px 0 !important;
+  /* padding: 11px 0 !important; */
   /* box-shadow: 0px 10px 15px -10px rgba(0, 0, 0, 0.5); */
   /* position: sticky; */
 }
@@ -644,7 +644,7 @@ padding-left: 80px;
   border-bottom: 4px solid black;
   height: 300px;
   overflow: hidden;
-  background-image: url('https://www.aurobindo.com/img/banners/aboutbanner.png');
+  background-image: url('https://www.shutterstock.com/image-illustration/microbiology-pharmaceutical-research-background-3d-260nw-647026912.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -694,7 +694,7 @@ margin-top: 70px;
 }
 
 .contact-bg{
-  background-color: rgb(14, 150, 241);
+  background-color: rgb(14 150 241 / 70%);
   border-radius: 15px;
 }
 
@@ -703,5 +703,18 @@ margin-top: 70px;
 }
 
 .bgcontactimg{
-  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/023/417/426/small/medical-infographic-banner-background-clinic-pharmacy-laboratory-test-and-research-healthcare-concept-backdrop-illustration-vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url("https://images.unsplash.com/photo-1587370560942-ad2a04eabb6d?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGhhcm1hfGVufDB8fDB8fHww");
+}
+
+.contact-h2{
+  font-size: 38px;
+  color: #000000;
+}
+
+.contact-p{
+  font-size: 26px;
+  color: rgb(5, 5, 5);
 }

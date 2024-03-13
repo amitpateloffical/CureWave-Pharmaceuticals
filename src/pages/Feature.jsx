@@ -39,12 +39,12 @@ export default function GxpTrainig() {
   }, []);
   return (
     <>
-      <BreadCrumb page="Feature" />
+      
 
 
-<div className=" col-lg-12 Rd-section">
-  <div className="RD-img pt-2 pb-5">
-    <img src="https://www.mankindpharma.com//media/images/cmspage/image/r&d-overview-banner-1548144778.jpg" alt="...." style={{ height: "400px", width: "100%", paddingTop: "40px"}} />
+<div className=" col-lg-12 ">
+  <div className="img-fluid ">
+    <img src="https://www.mankindpharma.com//media/images/cmspage/image/r&d-overview-banner-1548144778.jpg" alt="...." />
   </div>
 </div>
 

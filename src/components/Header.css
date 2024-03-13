@@ -111,6 +111,12 @@
   grid-template-columns: 1fr 1fr;
 }
 
+/* .header-item-flex  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 .header-head{
   color:rgb(14, 150, 241);
   font-size: 24px;

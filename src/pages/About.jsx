@@ -1,5 +1,4 @@
 import { useEffect, useRef, } from "react";
-import BreadCrumb from "../components/BreadCrumb";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -48,7 +47,7 @@ function About() {
 
       <div className="   py-3">
         <div id='header'>
-          <p id='header-h1 '> Advancing Healthcare through Innovation and Excellence</p>
+          {/* <h1 id='header-aboutus '> Advancing Healthcare through Innovation and Excellence</h1> */}
 
         </div>
 
@@ -107,9 +106,7 @@ function About() {
               CureWave bridges the gap between scientific discovery and tangible patient solutions. Our dedicated team translates promising research into life-saving medications.
             </p>
           </div>
-          <h3 className="mb-4" data-aos="fade-left">
-            Through our relentless dedication to:
-          </h3>
+         
           <div className="content_container">
             <ul
               className="list-group"

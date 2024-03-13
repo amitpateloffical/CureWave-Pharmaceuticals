@@ -56,18 +56,29 @@ function Header() {
                 className="d-inline-block align-top"
                 alt=""
               />
-          <div className="pt-3 header-head">CureWave Pharmaceuticle</div>
+          <h1 className="pt-3 header-head">CureWave Pharmaceuticle</h1>
 
             </Link>
           </div>
-          <div className="collapse navbar-collapse" id="">
-            <ul className="navbar-nav mr-auto">
+          <div className="collapse navbar-collapse " id="">
+            <ul className="navbar-nav mr-auto ">
               <li className="nav-item active">
                 <Link className="nav-link" to="/">
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              <li className="nav-item">
+                <Link
+                  to="/businessareas"
+                  className="nav-link"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                  Business Area
+                </Link>
+              </li>
+
+              {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   to="#"
@@ -99,7 +110,8 @@ function Header() {
                     Something else here
                   </Link>
                 </div>
-              </li>
+              </li> */}
+
               <li className="nav-item">
                 <Link
                   to="/manufacturing"
