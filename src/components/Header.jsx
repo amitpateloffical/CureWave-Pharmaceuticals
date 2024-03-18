@@ -27,19 +27,19 @@ function Header() {
                 Home
               </Link>
               <Link className="m-2 responsive-item" to="/businessareas">
-                Business Area
+              Scope
               </Link>
               <Link className="m-2 responsive-item" to="/manufacturing">
-                Manufacturing
+              Formation
               </Link>
               <Link className="m-2 responsive-item" to="/features">
-                Research &amp; Development
+              Scientific Inquiry
               </Link>
               <Link className="m-2 responsive-item" to="/about">
-                About Us
+              Our Mission
               </Link>
               <Link className="m-2 responsive-item" to="/contact">
-                Contact Us
+              Reach Us Here
               </Link>
             </div>
           </div>
@@ -74,7 +74,7 @@ function Header() {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  Business Area
+                   Scope
                 </Link>
               </li>
 
@@ -119,7 +119,7 @@ function Header() {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  Manufacturing
+                 Formation
                 </Link>
               </li>
               <li className="nav-item">
@@ -129,7 +129,7 @@ function Header() {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  R &amp; D
+                Scientific Inquiry
                 </Link>
               </li>
               <li className="nav-item">
@@ -139,7 +139,7 @@ function Header() {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  About Us
+                  Our Mission
                 </Link>
               </li>
               <li className="nav-item">
@@ -149,7 +149,7 @@ function Header() {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  Contact Us
+                 Reach Us Here
                 </Link>
               </li>
             </ul>

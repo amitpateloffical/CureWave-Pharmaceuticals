@@ -26,7 +26,10 @@ function Footer() {
               "CureWave Pharmaceuticals offers cutting-edge treatments, backed by rigorous research and quality assurance, ensuring optimal patient care and outcomes."
               </p>
               
+<div className="py-2">Address : Four Seasons Rd,Serengeti 02002, Tanzania</div>
+
             </div>
+           
            
             <div className=" col-lg-2 wow fadeIn align-right" data-wow-delay="0.5s">
               <h5 className="text-white pb-3">Popular Link</h5>
@@ -48,6 +51,8 @@ function Footer() {
                 <FontAwesomeIcon icon={faAngleRight} />
              R&d
               </Link>
+
+<a href="" className="py-2">info@CurewavePharmaceuticals.in</a>
             </div>
         
           </div>
